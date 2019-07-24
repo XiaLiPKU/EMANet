@@ -27,3 +27,22 @@ If you find EMANet useful in your research, please consider citing:
 ## Ablation Studies
 
 ## Comparisons with SOTAs
+
+|Method      	| Backbone      | mIoU(\%)	|
+|:-------------:|:-------------:|:---------:|
+|Wide ResNet 	| WideResNet-38 | 84.9		|
+|PSPNet 		| ResNet-101    | 85.4		|
+|DeeplabV3		| ResNet-101 	| 85.7		|
+|PSANet			| ResNet-101	| 85.7		|
+|EncNet 		| ResNet-101    | 85.9		|
+|DFN			| ResNet-101    | 86.2		|
+|Exfuse			| ResNet-101    | 86.2		|
+|IDW-CNN    	| ResNet-101    | 86.3		|
+|SDN 			| DenseNet-161  | 86.6		|
+|DIS        	| ResNet-101    | 86.8		|
+|**EMANet** 	| ResNet-101	| **87.7**	|
+|GCN     		| ResNet-152    | 83.6		|
+|RefineNet		| ResNet-152    | 84.2		|
+|DeeplabV3+		| Xception-65   | 87.8		|
+|Exfuse 		| ResNeXt-131   | 87.9		|
+|MSCI       	| ResNet-152    | 88.0		|

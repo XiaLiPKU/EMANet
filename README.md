@@ -34,8 +34,8 @@ Tab 1. Detailed comparisons with Deeplabs. All results are achieved with the bac
 |DeeplabV3  |78.51|79.77  |+63.4G|+66.0M|+15.5M|
 |DeeplabV3+ |79.35|80.57  |+84.1G|+99.3M|+16.3M|
 |PSANet     |78.51|79.77  |+56.3G|+59.4M|+18.5M|
-|EMANet(256)|79.73|80.94  |+21.1G|+12.3M|+4.87M|
-|EMANet(512)|80.05|81.32  |+43.1G|+22.1M|+10.0M|
+|EMANet(256)|79.73|80.94  |**+21.1G**|**+12.3M**|**+4.87M**|
+**|EMANet(512)**|**80.05**|**81.32**  |+43.1G|+22.1M|+10.0M|
 
 ## Comparisons with SOTAs
 

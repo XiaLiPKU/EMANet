@@ -28,24 +28,25 @@ If you find EMANet useful in your research, please consider citing:
 
 ## Comparisons with SOTAs
 Tab 1. Comparisons on the PASCAL VOC dataset.
+
 |Method      	| Backbone      | mIoU(\%)	|
-|:-------------:|:-------------:|:---------:|
-|GCN     		| ResNet-152    | 83.6		|
-|RefineNet		| ResNet-152    | 84.2		|
+|:-------------:|:-------------:|:-------------:|
+|GCN     	| ResNet-152    | 83.6		|
+|RefineNet	| ResNet-152    | 84.2		|
 |Wide ResNet 	| WideResNet-38 | 84.9		|
-|PSPNet 		| ResNet-101    | 85.4		|
-|DeeplabV3		| ResNet-101 	| 85.7		|
-|PSANet			| ResNet-101	| 85.7		|
-|EncNet 		| ResNet-101    | 85.9		|
-|DFN			| ResNet-101    | 86.2		|
-|Exfuse			| ResNet-101    | 86.2		|
+|PSPNet 	| ResNet-101    | 85.4		|
+|DeeplabV3	| ResNet-101 	| 85.7		|
+|PSANet		| ResNet-101	| 85.7		|
+|EncNet 	| ResNet-101    | 85.9		|
+|DFN		| ResNet-101    | 86.2		|
+|Exfuse		| ResNet-101    | 86.2		|
 |IDW-CNN    	| ResNet-101    | 86.3		|
-|SDN 			| DenseNet-161  | 86.6		|
+|SDN 		| DenseNet-161  | 86.6		|
 |DIS        	| ResNet-101    | 86.8		|
 |**EMANet101-OS16** 	| ResNet-101	| **87.3**	|
 |**EMANet101-OS8** 	| ResNet-101	| **87.7**	|
-|DeeplabV3+		| Xception-65   | 87.8		|
-|Exfuse 		| ResNeXt-131   | 87.9		|
+|DeeplabV3+	| Xception-65   | 87.8		|
+|Exfuse 	| ResNeXt-131   | 87.9		|
 |MSCI       	| ResNet-152    | 88.0		|
 |**EMANet152-OS16** 	| ResNet-152	| **88.0**	|
 |**EMANet152-OS8** 	| ResNet-152	| running	|

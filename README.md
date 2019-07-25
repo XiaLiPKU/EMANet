@@ -8,7 +8,7 @@ by [Xia Li](https://xialipku.github.io/), [Zhisheng Zhong](https://zzs1994.githu
 If you find EMANet useful in your research, please consider citing:
 
 	@inproceedings{li19,
-	    author={Xia Li and Zhisheng Zhong and Jianlong Wu and Zhisheng Zhong and Zhouchen Lin and Hong Liu},
+	    author={Xia Li and Zhisheng Zhong and Jianlong Wu and Yibo Yang and Zhouchen Lin and Hong Liu},
 	    title={Expectation-Maximization Attention Networks for Semantic Segmentation},
 	    booktitle={International Conference on Computer Vision},   
 	    year={2019},   

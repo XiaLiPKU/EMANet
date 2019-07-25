@@ -21,6 +21,7 @@ If you find EMANet useful in your research, please consider citing:
 - [Comparisons with SOTAs](#comparision-with-sotas)
 
 ## Introduction
+![EMA Unit](https://xialipku.github.io/publication/expectation-maximization-attention-networks-for-semantic-segmentation/featured_hu9697392da5f15752eba3cc9c3d5fcfba_326134_720x0_resize_lanczos_2.png)
 
 ## Usage
 

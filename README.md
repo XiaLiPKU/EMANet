@@ -39,7 +39,7 @@ Tab 1. Detailed comparisons with Deeplabs. All results are achieved with the bac
 
 ## Comparisons with SOTAs
 
-Tab 2. Comparisons on the PASCAL VOC test dataset.
+Tab 2. Comparisons on the PASCAL VOC test dataset. OS means the output stride for training. For test, output stride is set as 8.
 
 |Method      	| Backbone      | mIoU(\%)	|
 |:-------------:|:-------------:|:-------------:|

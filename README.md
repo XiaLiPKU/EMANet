@@ -26,7 +26,7 @@ If you find EMANet useful in your research, please consider citing:
 
 ## Ablation Studies
 
-Tab 1. Detailed comparisons with Deeplabs. All results are achieved with the backbone ResNet-101 and output stride 8.  The FLOPs and memory are computed with the input size 513×513. SS: Single scale input during test. MS: Multi-scale input. Flip: Adding left-right flipped input. EMANet (256) and EMANet (512) represent EMANet withthe number of input channels for EMA as 256 and 512, respectively.
+Tab 1. Detailed comparisons with Deeplabs. All results are achieved with the backbone ResNet-101 and output stride 8.  The FLOPs and memory are computed with the input size 513×513. SS: Single scale input during test. MS: Multi-scale input. Flip: Adding left-right flipped input. EMANet (256) and EMANet (512) represent EMANet withthe number of input channels for EMA as 256 and 512, respectively. 
 
 |Method     |SS   |MS+Flip|FLOPs |Memory|Params|
 |:---------:|:---:|:-----:|:----:|:----:|:----:|
@@ -36,6 +36,8 @@ Tab 1. Detailed comparisons with Deeplabs. All results are achieved with the bac
 |PSANet     |78.51|79.77  |+56.3G|+59.4M|+18.5M|
 |EMANet(256)|79.73|80.94  |**+21.1G**|**+12.3M**|**+4.87M**|
 |**EMANet(512)**|**80.05**|**81.32**  |+43.1G|+22.1M|+10.0M|
+
+To be note, the majority overheads of EMANets come from the 3x3 convs before and after the EMA Module. As for the EMA Module itself, its computation is only 1/3 of a 3x3 conv's, and its parameter number is even smaller than a 1x1 conv.
 
 ## Comparisons with SOTAs
 

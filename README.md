@@ -66,4 +66,4 @@ Tab 2. Comparisons on the PASCAL VOC test dataset. OS means the output stride fo
 |Exfuse 	| ResNeXt-131   | 87.9		|
 |MSCI       	| ResNet-152    | 88.0		|
 |**EMANet152-OS16** 	| ResNet-152	| **88.0**	|
-|**EMANet152-OS8** 	| ResNet-152	| running	|
+|**EMANet152-OS8** 	| ResNet-152	| **88.2**	|

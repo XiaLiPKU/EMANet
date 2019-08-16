@@ -44,7 +44,7 @@ To be note, the majority overheads of EMANets come from the 3x3 convs before and
 
 ## Comparisons with SOTAs
 
-Tab 2. Comparisons on the PASCAL VOC test dataset. OS means the output stride for training. For test, output stride is set as 8.
+Tab 2. Comparisons on the PASCAL VOC test dataset.
 
 |Method      	| Backbone      | mIoU(\%)	|
 |:-------------:|:-------------:|:-------------:|
@@ -60,10 +60,8 @@ Tab 2. Comparisons on the PASCAL VOC test dataset. OS means the output stride fo
 |IDW-CNN    	| ResNet-101    | 86.3		|
 |SDN 		| DenseNet-161  | 86.6		|
 |DIS        	| ResNet-101    | 86.8		|
-|**EMANet101-OS16** 	| ResNet-101	| **87.3**	|
-|**EMANet101-OS8** 	| ResNet-101	| **87.7**	|
+|**EMANet101** 	| ResNet-101	| **87.7**	|
 |DeeplabV3+	| Xception-65   | 87.8		|
 |Exfuse 	| ResNeXt-131   | 87.9		|
 |MSCI       	| ResNet-152    | 88.0		|
-|**EMANet152-OS16** 	| ResNet-152	| **88.0**	|
-|**EMANet152-OS8** 	| ResNet-152	| **88.2**	|
+|**EMANet152** 	| ResNet-152	| **88.2**	|

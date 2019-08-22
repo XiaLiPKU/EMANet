@@ -47,8 +47,8 @@ For research, I recommand seperatting each experiment with a folder. Each folder
 3. Downloads the pretrained [ResNet50](https://hangzh.s3.amazonaws.com/encoding/models/resnet50-ebb6acbb.zip) and [ResNet101](https://hangzh.s3.amazonaws.com/encoding/models/resnet101-2a57e44d.zip), unzip them, and put into the 'models' folder.
 4. Change the 'DATA_ROOT' in settings.py to where you place the dataset.
 5. Run `sh clean.sh` to clear the models and logs from the last experiment.
-6. Run `python train.py` for training.
-7. Run `sh tensorboard.sh` for training visualization on your browser.
+6. Run `python train.py` for training and `sh tensorboard.sh` for visualization on your browser.
+7. Or you can download the [pretraind model](https://drive.google.com/file/d/1rOfV1dpcvW2lxfGJ9RtntBXF-z64kjsC/view?usp=sharing) and skip 6.
 8. Run `python eval.py` for validation
 
 ## Ablation Studies

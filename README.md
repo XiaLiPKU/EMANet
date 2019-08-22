@@ -72,7 +72,7 @@ To be note, the majority overheads of EMANets come from the 3x3 convs before and
 ## Comparisons with SOTAs
 
 Note that, for validation on the 'val' set, you just have to train 30k on the 'trainaug' set.
-But for test on the evaluation server, the default setting is pretrain on COCO, and then 30k on 'trainaug', and another 30k on the 'trainval' set.
+But for test on the evaluation server, you should first pretrain on COCO, and then 30k on 'trainaug', and another 30k on the 'trainval' set.
 
 Tab 2. Comparisons on the PASCAL VOC test dataset.
 

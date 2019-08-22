@@ -4,7 +4,7 @@ from torch import Tensor
 
 
 # Data settings
-DATA_ROOT = '/path/to/VOC2012'
+DATA_ROOT = '/path/to/VOC'
 MEAN = Tensor(np.array([0.485, 0.456, 0.406]))
 STD = Tensor(np.array([0.229, 0.224, 0.225]))
 SCALES = (0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0)

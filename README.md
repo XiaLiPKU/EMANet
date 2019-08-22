@@ -6,7 +6,7 @@ This repository is for [Expectation-Maximization Attention Networks for Semantic
 
 by [Xia Li](https://xialipku.github.io/), [Zhisheng Zhong](https://zzs1994.github.io/), [Jianlong Wu](https://jlwu1992.github.io/), [Yibo Yang](https://scholar.google.com.hk/citations?user=DxXXnCcAAAAJ&hl=en), [Zhouchen Lin](http://www.cis.pku.edu.cn/faculty/vision/zlin/zlin.htm) and [Hong Liu](https://scholar.google.com/citations?user=4CQKG8oAAAAJ&hl=en) from Peking University.
 
-The source code is now available!
+**The source code is now available!**
 
 ### citation
 If you find EMANet useful in your research, please consider citing:
@@ -97,6 +97,8 @@ Tab 2. Comparisons on the PASCAL VOC test dataset.
 
 ## Code Borrowed From
 [RESCAN](https://github.com/XiaLiPKU/RESCAN)
+
 [Pytorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
+
 [Synchronized-BN](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch)
 

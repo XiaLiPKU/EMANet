@@ -21,7 +21,6 @@ If you find EMANet useful in your research, please consider citing:
 ### table of contents
 - [Introduction](#introduction)
 - [Design](#design)
-- [Preparation](#preparation)
 - [Usage](#usage)
 - [Ablation studies](#ablation-studies)
 - [Comparisons with SOTAs](#comparision-with-sotas)
@@ -40,7 +39,7 @@ not a good design for large project. But for research, it offers great flexibili
 
 For research, I recommand seperatting each experiment with a folder. Each folder contains the whole project, and should be named as the experiment settings, such as 'EMANet101.moving_avg.l2norm.3stages'. Through this, you can keep tracks of all the experiments, and find their differences just by the 'diff' command.
 
-## Preparation
+## Usage
 
 1. Install the libraries listed in the 'requirements.txt'
 2. Downloads [images](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) and [labels](https://drive.google.com/file/d/1OqX6s07rFqtu-JZCjdjnJDv1QfDz9uG7/view?usp=sharing) of PASCAL VOC and SBD, decompress them together.

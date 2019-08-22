@@ -42,13 +42,14 @@ For research, I recommand seperatting each experiment with a folder. Each folder
 
 ## Preparation
 
-0. Install the libraries listed in the 'requirements.txt'
-1. Downloads [images](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) and [labels](https://drive.google.com/file/d/1OqX6s07rFqtu-JZCjdjnJDv1QfDz9uG7/view?usp=sharing) of PASCAL VOC and SBD, decompress them together.
-2. Downloads the pretrained [ResNet50](https://hangzh.s3.amazonaws.com/encoding/models/resnet50-ebb6acbb.zip) and [ResNet101](https://hangzh.s3.amazonaws.com/encoding/models/resnet101-2a57e44d.zip), unzip them, and put into the 'models' folder.
-3. Change the 'DATA_ROOT' in settings.py to where you place the dataset.
-4. Run `sh clean.sh` to clear the models and logs from the last experiment.
-5. Run `python train.py` for training and `python eval.py` for validation.
-5. Run `sh tensorboard.sh` for training visualization on your browser.
+1. Install the libraries listed in the 'requirements.txt'
+2. Downloads [images](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar) and [labels](https://drive.google.com/file/d/1OqX6s07rFqtu-JZCjdjnJDv1QfDz9uG7/view?usp=sharing) of PASCAL VOC and SBD, decompress them together.
+3. Downloads the pretrained [ResNet50](https://hangzh.s3.amazonaws.com/encoding/models/resnet50-ebb6acbb.zip) and [ResNet101](https://hangzh.s3.amazonaws.com/encoding/models/resnet101-2a57e44d.zip), unzip them, and put into the 'models' folder.
+4. Change the 'DATA_ROOT' in settings.py to where you place the dataset.
+5. Run `sh clean.sh` to clear the models and logs from the last experiment.
+6. Run `python train.py` for training.
+7. Run `sh tensorboard.sh` for training visualization on your browser.
+8. Run `python eval.py` for validation
 
 ## Ablation Studies
 

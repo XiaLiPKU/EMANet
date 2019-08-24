@@ -16,7 +16,7 @@ def fetch(image_path, label_path=None):
     with open(image_path, 'rb') as fp:
         image = Image.open(fp).convert('RGB')
     image = torch.FloatTensor(np.asarray(image)) / 255
-    image = (image - settings.MEAN) / settings.MEAN
+    image = (image - settings.MEAN) / settings.STD
     image = image.permute(2, 0, 1).unsqueeze(dim=0)
 
     if label_path is not None:

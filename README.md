@@ -47,7 +47,7 @@ For research, I recommand seperatting each experiment with a folder. Each folder
 4. Change the 'DATA_ROOT' in settings.py to where you place the dataset.
 5. Run `sh clean.sh` to clear the models and logs from the last experiment.
 6. Run `python train.py` for training and `sh tensorboard.sh` for visualization on your browser.
-7. Or you can download the [pretraind model](https://drive.google.com/file/d/1rOfV1dpcvW2lxfGJ9RtntBXF-z64kjsC/view?usp=sharing), put into the 'models' folder, and skip step 6.
+7. Or you can download the [pretraind model](https://drive.google.com/file/d/1vJhzEEpsPzKLLIOb6B9Uro8Vr0A5VXMv/view?usp=sharing), put into the 'models' folder, and skip step 6.
 8. Run `python eval.py` for validation
 
 ## Ablation Studies

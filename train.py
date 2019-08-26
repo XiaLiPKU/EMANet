@@ -131,8 +131,8 @@ class Session:
         with torch.no_grad():
             mu = mu.mean(dim=0, keepdim=True)
             momentum = settings.EM_MOM
-            self.net.module.ema.mu *= momentum
-            self.net.module.ema.mu += mu * (1 - momentum)
+            self.net.module.emau.mu *= momentum
+            self.net.module.emau.mu += mu * (1 - momentum)
 
         loss = loss.mean()
         self.opt.zero_grad()

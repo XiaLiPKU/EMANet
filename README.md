@@ -1,5 +1,12 @@
 # EMANet
 
+## News
+
+EMANet-101 gets *79.79* in mIoU on Cityscapes using single-scale inference.
+And *80.99* on the PASCAL VOC dataset. 
+So, with a classic backbone(ResNet) instead of some newest ones(WideResNet, HRNet),
+EMANet still achieves the top performance.
+
 ## Background
 
 This repository is for [Expectation-Maximization Attention Networks for Semantic Segmentation](https://xialipku.github.io/publication/expectation-maximization-attention-networks-for-semantic-segmentation/) (to appear in ICCV 2019, Oral presentation),

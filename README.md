@@ -3,7 +3,7 @@
 ## News
 
 EMANet-101 gets *79.79* in mIoU on Cityscapes using single-scale inference.
-And *80.99* on the PASCAL VOC dataset. 
+And *80.99* on the PASCAL VOC dataset (Thanks for Sensetimes' server). 
 So, with a classic backbone(ResNet) instead of some newest ones(WideResNet, HRNet),
 EMANet still achieves the top performance.
 

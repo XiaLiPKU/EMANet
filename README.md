@@ -3,7 +3,8 @@
 ## News
 
 - The bug in loading the pretrained model is now fixed. I have updated the .pth. To use it, download it again.
-- EMANet-101 gets *79.79* in mIoU on Cityscapes using single-scale inference. And *80.99* on the PASCAL VOC dataset (Thanks for Sensetimes' server). So, with a classic backbone(ResNet) instead of some newest ones(WideResNet, HRNet), EMANet still achieves the top performance.
+- EMANet-101 gets *80.99* on the PASCAL VOC dataset (Thanks for Sensetimes' server). So, with a classic backbone(ResNet) instead of some newest ones(WideResNet, HRNet), EMANet still achieves the top performance.
+- EMANet-101 (OHEM) gets *81.14* in mIoU on Cityscapes val using single-scale inference, and [81.9](https://www.cityscapes-dataset.com/anonymous-results/?id=35eea66e90fef69e336babb009082f9cfda2b98d0327a8186f91d5edaacd7c7f) on test server with multi-scale inference.
 
 ## Background
 

@@ -233,7 +233,7 @@ class EMAU(nn.Module):
                 mu = torch.bmm(x, z_)       # b * c * k
                 mu = self._l2norm(mu, dim=1)
                 
-        # !!! The moving averaging operation is writtern in main.py, which is significant.
+        # !!! The moving averaging operation is writtern in train.py, which is significant.
 
         z_t = z.permute(0, 2, 1)            # b * k * n
         x = mu.matmul(z_t)                  # b * c * n
